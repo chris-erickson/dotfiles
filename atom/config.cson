@@ -1,0 +1,32 @@
+"*":
+  core:
+    ignoredNames: [
+      "*.orig"
+      ".DS_Store"
+      ".git"
+      ".cache"
+      ".vagrant"
+      "*.pyc"
+      "htmlcov"
+      "__pycache__"
+      "dumps"
+      "CACHE"
+      "node_modules"
+      "pelican-plugins"
+    ]
+    telemetryConsent: "limited"
+  editor:
+    fontFamily: "Hack-Regular"
+    fontSize: 11
+    showInvisibles: true
+  "exception-reporting":
+    userId: "bbd2dfcf-8ff2-4f56-9438-851541a26ad9"
+  linter:
+    lintOnChangeInterval: 2000
+    lintPreviewTabs: false
+  "linter-flake8":
+    ignoreErrorCodes: [
+      "E501 E133 E402"
+    ]
+  welcome:
+    showOnStartup: false

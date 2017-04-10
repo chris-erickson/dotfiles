@@ -1,0 +1,8 @@
+atom/packages
+atom/blob-store
+atom/compile-cache
+atom/storage
+atom/.apm
+atom/.node-gyp
+atom/.gitignore
+

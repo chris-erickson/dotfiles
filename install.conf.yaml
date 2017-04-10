@@ -1,0 +1,18 @@
+- defaults:
+    link:
+      relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.dotfiles: ''
+    ~/.atom: atom
+    ~/.gitconfig: gitconfig
+    ~/.bash_profile: bash_profile
+    ~/.hushlogin: hushlogin
+    ~/.brewfile/Brewfile:
+      create: true
+      path: Brewfile
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
