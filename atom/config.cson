@@ -22,11 +22,22 @@
   "exception-reporting":
     userId: "bbd2dfcf-8ff2-4f56-9438-851541a26ad9"
   linter:
+    disabledProviders: [
+      "Flake8"
+    ]
     lintOnChangeInterval: 2000
     lintPreviewTabs: false
   "linter-flake8":
+    hangClosing: true
     ignoreErrorCodes: [
       "E501 E133 E402"
     ]
+    projectConfigFile: [
+      ".flake8rc"
+      ".flake8"
+    ]
+  "linter-ui-default":
+    panelHeight: 69
+    showPanel: true
   welcome:
     showOnStartup: false

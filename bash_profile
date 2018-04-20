@@ -1,6 +1,6 @@
 export CLICOLOR=1
 export TERM=xterm-color
-
+export PYTHONDONTWRITEBYTECODE=1
 export HOMEBREW_NO_ANALYTICS=1
 
 alias bashprofile='nano ~/.bash_profile && source ~/.bash_profile'
@@ -79,3 +79,10 @@ function gc {
 ## Misc
 alias owm='open -a "Marked 2" '
 alias clearpyc="find . -name '*.pyc' -delete"
+
+## Helpers
+alias python-install-global='pip install -r ~/Infrastructure/dotfiles/requirements.txt'
+
+## virtualenvwrapper
+export WORKON_HOME=$HOME/.virtualenvs
+source /usr/local/bin/virtualenvwrapper.sh
